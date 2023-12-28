@@ -1,0 +1,21 @@
+.parallax {
+    background-image: url('./../assets/images/portada.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
+.parallax h1 {
+    /* background-color: #F3AB18; */
+    background: #ffc10742;
+    text-shadow: 1px 1px 2px black;
+    padding: 20px 2em;
+    font-size: 2rem;
+    border-block-style: solid;
+    border-block-color: #F3AB18;
+    border-radius: 0 20% 40% 0;
+    text-align: center;
+}
