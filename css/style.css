@@ -22,6 +22,18 @@
     text-align: center;
 }
 
+.titulo {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo h1 {
+    color: #15843cdc;
+}
+
 #portada {
     border-bottom: 5px solid #F3AB18;
 }
@@ -40,9 +52,11 @@
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
 }
-#acerca-txt{
+
+#acerca-txt {
     padding: 40px;
 }
+
 #acerca-txt p {
     font-size: 20px;
     font-family: 'Nunito', sans-serif;
@@ -56,4 +70,8 @@
     /* Para ajustar la imagen y cubrir completamente el contenedor */
     object-position: center;
     /* Ajusta la posición de la imagen en el contenedor */
+}
+
+#principios div {
+    padding: 0;
 }
