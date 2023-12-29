@@ -74,4 +74,19 @@
 
 #principios div {
     padding: 0;
+    max-width: 99.6vw;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#c1{
+    background-image: url('./../assets/images/portada.jpg');
+   
+}
+#c2{
+    background-image: url('./../assets/images/portada.jpg');
+}
+#c3{
+    background-image: url('./../assets/images/portada.jpg');
 }
