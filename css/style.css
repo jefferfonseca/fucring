@@ -5,7 +5,14 @@
     src: url(./../assets/fonts/FontsFree-Net-Avenir-Light.woff);
 }
 
-body{
+* {
+    --verde-1: #00a130dc;
+    --verde-2: #00a1303d;
+    --amarillo-1: #F3AB18;
+    --amarillo-2: #f3aa183a;
+}
+
+body {
     overflow-x: hidden;
 }
 
@@ -15,13 +22,15 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    transition: all ease-out 0.3s;
-  }
-  
-  #section1 {
-    background-image: url('./../assets/images/logotipo.png'); /* Ruta de la imagen para la sección 1 */
+    transition: all 0.7s ease-out;
+}
+
+#section1 {
+    background-image: url('./../assets/images/logotipo.png');
+    /* Ruta de la imagen para la sección 1 */
     max-height: 40vh;
-  }
+}
+
 .portada {
     max-height: 90vh;
     display: flex;
@@ -29,22 +38,33 @@ body{
     color: white;
 }
 
-.portada h1 {
-    /* background-color: #F3AB18; */
-    background: #ffc10742;
+.verde,
+.amarillo {
     text-shadow: 1px 1px 2px black;
-    padding: 20px 2em;
     font-size: 2rem;
-    border-block-style: solid;
-    border-block-color: #F3AB18;
-    border-radius: 30%;
     text-align: center;
     font-family: Avenir;
+    padding: 10px;
+    font-weight: bolder;
+    border-block-style: ridge;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);
+}
+
+.verde {
+    background: var(--verde-2);
+    border-block-color: var(--verde-1);
+    border-radius: 30%;
+}
+
+.amarillo {
+    background: var(--amarillo-2);
+    border-block-color: var(--amarillo-1);
+    border-radius: 30%;
 }
 
 .espacio div {
-    border-top: 5px solid #F3AB18;
-    border-bottom: 5px solid #F3AB18;
+    border-top: 5px solid var(--amarillo-1);
+    border-bottom: 5px solid var(--amarillo-1);
     height: 30vh;
 }
 
@@ -57,12 +77,12 @@ body{
 }
 
 .titulo h1 {
-    color: #00a130dc;
+    color: var(--verde-1);
 }
 
 #acerca {
     overflow: hidden;
-    background: #03852ad8;
+    background: var(--verde-1);
     color: #fff;
     text-align: center;
 }
@@ -98,67 +118,30 @@ body{
     display: flex;
     padding: 0;
     justify-content: center;
-    min-height: 15rem;
-    max-width: 99.6vw;
+    min-height: 20rem;
+    max-width: 100vw;
     background-size: cover;
     background-position: center;
     color: white;
     font-family: Avenir;
 }
 
-#principios h3 {
-    position: absolute;
-    top: 10px;
-    background: #215f3783;
-    text-shadow: 1px 1px 2px black;
-    padding: 5px 15px;
-    font-size: 1.5rem;
-    border-block-style: solid;
-    border-block-color: #00a130dc;
-    border-radius: 40%;
-    font-weight: bold;
-}
-
-#principios p {
-    position: absolute;
-    bottom: 0;
-    background: #00a13052;
-    text-shadow: 1px 1px 2px black;
-    padding: 1px 25px;
-    font-size: 1.2rem;
-    border-block-style: solid;
-    border-block-color: #f3aa18d5;
-    border-radius: 40%;
-    font-weight: bold;
-}
-
-#c1 {
+#principios div #c1 {
     background-image: url('./../assets/images/principios/1.jpg');
 }
 
-#c2 {
+#principios div #c2 {
     background-image: url('./../assets/images/principios/2.jpg');
 }
 
-#c3 {
+#principios div #c3 {
     background-image: url('./../assets/images/principios/3.jpg');
-}
-
-#principios {
-    display: flex;
-    justify-content: space-around;
-}
-
-.col-md-4 {
-    perspective: 1000px;
-    cursor: pointer;
 }
 
 .card {
     width: 100vw;
-    height: 100%;
     transform-style: preserve-3d;
-    transition: transform 0.6s;
+    transition: transform 1s;
     transform-origin: center center;
     /* Cambiado a center center */
 }
@@ -177,17 +160,98 @@ body{
     text-align: center;
 }
 
+.card .front h3 {
+    background: linear-gradient(to bottom, rgba(0, 61, 3, 0.849), rgba(255, 255, 255, 0));
+    /* Gradiente */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-shadow: 0.1px 0.1px 4px black;
+    padding: 5px 15px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: white;
+}
+
+.card .front p {
+    background: linear-gradient(to top, var(--amarillo-1), rgba(255, 255, 255, 0));
+    /* Gradiente */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 1px 1px 2px black;
+    padding: 0 0 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
 .card .back {
-    background: #f3aa183a;
+    background: var(--verde-2);
     transform: rotateY(180deg);
 }
 
 .card .back span {
     min-height: 210px;
-    max-height: 210px;
-    background: #00a13036;
+    background: var(--amarillo-2);
     padding: 15px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black;
-    font-size: 1.1rem;
+    font-size: 3dvh;
+    /* Ajusta el tamaño de fuente según sea necesario */
+    
+    white-space: wrap;
+    /* Evita el salto de línea */
+    box-sizing: border-box;
+    /* Incluye el relleno en el ancho total del elemento */
+}
+
+#proyectos {
+    color: white;
+    font-family: Avenir;
+    padding-left: 0;
+}
+
+#proyectos div {
+    max-width: 100vw;
+    padding: 0;
+}
+
+
+
+.proyect> div {
+    background-position: center;
+    background-size: cover;
+    min-height: 30rem;
+
+}
+
+.proyect #c1>div {
+    background-color: #f3aa1850;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos hijos se apilen verticalmente */
+    align-items: center; /* Centra verticalmente los elementos hijos */
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    text-align: center;
+
+}
+
+.proyect #c1>div h3, p{
+    min-height: 50%;
+    width: 100%;
+    font-weight: bolder;
+}
+
+
+.proyect #c1 {
+    background-image: url('./../assets/images/proyectos/1.jpg');
+}
+
+.proyect #c2 {
+    background-image: url('./../assets/images/proyectos/2.jpg');
+}
+
+.proyect #c3 {
+    background-image: url('./../assets/images/proyectos/3.jpg');
 }
