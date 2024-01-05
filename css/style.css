@@ -40,13 +40,17 @@
     background-image: url('./../assets/images/logotipo.png');
     max-height: 40vh;
 }
+
 #parallax-2 {
+    display: flex;
+    align-items: end;
     background-image: url('./../assets/images/parallax-2.jpg');
     max-height: 70vh;
-    background-position: bottom;
-    background-size: cover;
+    background-position: center;
+    background-size: contain;
 
 }
+
 /* Clases para estilos de texto */
 .verde, .amarillo {
     text-shadow: 1px 1px 2px black;
@@ -129,7 +133,6 @@
     padding: 0;
     justify-content: center;
     min-height: 20rem;
-    max-width: 99.6vw;
     background-size: cover;
     background-position: center;
     color: white;
@@ -209,7 +212,6 @@
 }
 
 #proyectos div {
-    max-width: 99.6vw;
     padding: 0;
 }
 
@@ -234,7 +236,7 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 60%;
+    min-height: 60%;
 }
 
 .proyect #c2 .intro {

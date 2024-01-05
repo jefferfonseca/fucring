@@ -10,10 +10,10 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body  data-spy="scroll" data-target="#navbar" data-offset="56">
+<body>
     <!-- ------------------------------------ Navegacion Inicio--------------------------------------------- -->
-    <nav class="navbar navbar-expand-lg  bg-body-tertiary fixed-top" id="navbar">
-            <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-lg-top" id="navbar">
+        <div class="container-fluid">
             <!-- Imagen md y menores -->
             <a class="navbar-brand d-md-block d-lg-none" href="#">
                 <img src="assets/images/logotipo.png" alt="FUCRING" width="auto" height="40">
@@ -156,7 +156,8 @@
                         <p>Compromiso con la Transformación Personal</p>
                     </div>
                     <div class="back">
-                        <span class="align-middle">Está comprometida a promover la transformación personal de niños y jóvenes, proporcionando
+                        <span class="align-middle">Está comprometida a promover la transformación personal de niños y
+                            jóvenes, proporcionando
                             recursos y apoyo emocional para superar situaciones de maltrato y abuso. Buscamos fortalecer
                             su autoestima, habilidades y perspectivas de vida, guiándolos hacia un futuro más
                             esperanzador.</span>
@@ -212,7 +213,9 @@
                     <div id="c1">
                         <div class="intro">
                             <h3>Mercados de Salvación.</h3>
-                            <p>Transformamos donaciones de corazones generosos en alimentos repartidos con amor, alimentando esperanzas y construyendo puentes de solidaridad en cada rincón necesitado</p>
+                            <p>Transformamos donaciones de corazones generosos en alimentos repartidos con amor,
+                                alimentando esperanzas y construyendo puentes de solidaridad en cada rincón necesitado
+                            </p>
                             <a href="" class="btn">Más información</a>
                         </div>
                     </div>
@@ -224,7 +227,8 @@
                     <div id="c2">
                         <div class="intro">
                             <h3>Días de Esperanza.</h3>
-                            <p>Con cada donación, celebramos días especiales para aquellos que más lo necesitan, llevando alegría y esperanza a través de gestos que marcan la diferencia.</p>
+                            <p>Con cada donación, celebramos días especiales para aquellos que más lo necesitan,
+                                llevando alegría y esperanza a través de gestos que marcan la diferencia.</p>
                             <a href="" class="btn">Más información</a>
                         </div>
                     </div>
@@ -236,7 +240,8 @@
                     <div id="c3">
                         <div class="intro">
                             <h3>Almuerzos Solidarios.</h3>
-                            <p>Compartimos más que comida, construimos comunidad, ofreciendo platos llenos de esperanza y calidez para todos los que lo necesitan.</p>
+                            <p>Compartimos más que comida, construimos comunidad, ofreciendo platos llenos de esperanza
+                                y calidez para todos los que lo necesitan.</p>
                             <a href="" class="btn">Más información</a>
                         </div>
                     </div>
@@ -246,82 +251,40 @@
     </section>
     <!-- ------------------------------------ proyectos de Inicio--------------------------------------------- -->
 
-    <section class="parallax" id="parallax-2"></section>
+    <section class="parallax" id="parallax-2">
+    </section>
 
-<!-- ------------------------------------ proyectos de Inicio--------------------------------------------- -->
-<section id="proyectos">
-    <div class="row">
-        <div class="col-sm-12 col-md-4">
-            <div class="proyect">
-                <div id="c1">
-                    <div class="intro">
-                        <h3>Mercados de Salvación.</h3>
-                        <p>Transformamos donaciones de corazones generosos en alimentos repartidos con amor, alimentando esperanzas y construyendo puentes de solidaridad en cada rincón necesitado</p>
-                        <a href="" class="btn">Más información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- ------------------------------------ proyectos de Inicio--------------------------------------------- -->
+    <section id="donaciones">
+     
+    </section>
 
-        <div class="col-sm-12 col-md-4">
-            <div class="proyect">
-                <div id="c2">
-                    <div class="intro">
-                        <h3>Días de Esperanza.</h3>
-                        <p>Con cada donación, celebramos días especiales para aquellos que más lo necesitan, llevando alegría y esperanza a través de gestos que marcan la diferencia.</p>
-                        <a href="" class="btn">Más información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <div class="proyect">
-                <div id="c3">
-                    <div class="intro">
-                        <h3>Almuerzos Solidarios.</h3>
-                        <p>Compartimos más que comida, construimos comunidad, ofreciendo platos llenos de esperanza y calidez para todos los que lo necesitan.</p>
-                        <a href="" class="btn">Más información</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-    
     <script>
+        // ocultar navbar
+        let prevScrollpos = window.pageYOffset;
 
-// ocultar navbar
-let prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            const currentScrollPos = window.pageYOffset;
 
-    window.onscroll = function() {
-        const currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top =
+                "-90px"; // Puedes ajustar este valor según el tamaño de tu navbar
+            }
+            prevScrollpos = currentScrollPos;
+        };
 
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-80px"; // Puedes ajustar este valor según el tamaño de tu navbar
-        }
-
-        prevScrollpos = currentScrollPos;
-    };
-
-
-    //    Efecto parallax inicio
-       
-       
-       document.addEventListener('scroll', function () {
+        //    Efecto parallax inicio
+        document.addEventListener('scroll', function () {
             const scrollTop = window.scrollY;
 
             // Ajusta la velocidad de desplazamiento según sea necesario
             document.getElementById('parallax-1').style.backgroundPositionY = scrollTop * 0.2 + 'px';
-            document.getElementById('parallax-2').style.backgroundPositionY = scrollTop * -0.02  + 'px';
+            document.getElementById('parallax-2').style.backgroundPositionY = -scrollTop * -0.02 + 'px';
         });
     </script>
+
     <!-- Efecto parallax Fin -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
