@@ -48,7 +48,6 @@
     max-height: 70vh;
     background-position: center;
     background-size: contain;
-
 }
 
 /* Clases para estilos de texto */
@@ -257,7 +256,17 @@
 }
 .intro a:hover{
     background: var(--verde-2);
+}
 
+#donaciones{
+    background-color: var(--verde-1);
+}
+
+.vertical-center> div{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .proyect #c1 { background-image: url('./../assets/images/proyectos/1.jpg'); }
