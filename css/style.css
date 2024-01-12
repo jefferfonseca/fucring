@@ -22,7 +22,11 @@
     padding: 0;
 }
 
-.navbar{
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
     transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -51,7 +55,8 @@
 }
 
 /* Clases para estilos de texto */
-.verde, .amarillo {
+.verde,
+.amarillo {
     text-shadow: 1px 1px 2px black;
     font-size: 2rem;
     text-align: center;
@@ -138,9 +143,17 @@
     font-family: Avenir;
 }
 
-#principios div #c1 { background-image: url('./../assets/images/principios/1.jpg'); }
-#principios div #c2 { background-image: url('./../assets/images/principios/2.jpg'); }
-#principios div #c3 { background-image: url('./../assets/images/principios/3.jpg'); }
+#principios div #c1 {
+    background-image: url('./../assets/images/principios/1.jpg');
+}
+
+#principios div #c2 {
+    background-image: url('./../assets/images/principios/2.jpg');
+}
+
+#principios div #c3 {
+    background-image: url('./../assets/images/principios/3.jpg');
+}
 
 /* Estilos de tarjeta */
 .card {
@@ -154,7 +167,8 @@
     transform: rotateY(180deg);
 }
 
-.card .front, .card .back {
+.card .front,
+.card .back {
     width: 100%;
     position: absolute;
     backface-visibility: hidden;
@@ -223,7 +237,10 @@
     padding: 10px;
 }
 
-.proyect, #c1, #c2, #c3 {
+.proyect,
+#c1,
+#c2,
+#c3 {
     height: 100%;
 }
 
@@ -242,33 +259,138 @@
     background-color: var(--verde-2);
 }
 
-.intro h3, p {
+.intro h3 p {
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.788);
 }
 
-.intro a{
+.intro a {
     padding: 7px;
     border: 1.5px solid var(--verde-1);
     color: var(--verde-1);
     background: #ffffff9f;
     margin-bottom: 5px;
 }
-.intro a:hover{
+
+.intro a:hover {
     background: var(--verde-2);
 }
 
-#donaciones{
-    background-color: var(--verde-1);
+.proyect #c1 {
+    background-image: url('./../assets/images/proyectos/1.jpg');
 }
 
-.vertical-center> div{
+.proyect #c2 {
+    background-image: url('./../assets/images/proyectos/2.jpg');
+}
+
+.proyect #c3 {
+    background-image: url('./../assets/images/proyectos/3.jpg');
+}
+
+.vertical-center>div {
     display: flex;
-    height: 90vh;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.proyect #c1 { background-image: url('./../assets/images/proyectos/1.jpg'); }
-.proyect #c2 { background-image: url('./../assets/images/proyectos/2.jpg'); }
-.proyect #c3 { background-image: url('./../assets/images/proyectos/3.jpg'); }
+#ayuda {
+    background: var(--verde-1);
+    color: #fff;
+    text-align: center;
+}
+
+#separata {
+    vertical-align: bottom;
+    background-color: #fff;
+    border-bottom: 2px solid var(--amarillo-1);
+}
+
+.ayuda {
+    font-family: Avenir;
+    padding: 10%;
+}
+
+.ayuda h1 {
+    font-weight: bolder;
+}
+
+.ayuda p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.ayuda a {
+    transition: 0.2s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: #fff;
+    border: 1 solid var(--amarillo-1);
+    background: var(--amarillo-1);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.ayuda a:hover {
+    background-color: var(--amarillo-2);
+    text-decoration: wavy;
+}
+
+footer {
+    color: #fff;
+    font-family: Avenir;
+    padding: 40px 20px 0;
+    background-color: #363435;
+    text-align: center;
+}
+
+footer>div {
+    padding: 15px 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer .enlaces a {
+    display: block;
+    padding: 5px;
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.8s all cubic-bezier(0.075, 0.82, 0.165,  1);
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .enlaces a>i {
+    margin-right: 5px;
+    font-size: 19px;
+}
+
+.enlaces a:hover {
+    color: var(--amarillo-1);
+    text-decoration: underline;
+    text-decoration-color: var(--verde-1);
+    font-size: 24px;
+}
+
+
+/* Gradient transparent - color - transparent */
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+}
