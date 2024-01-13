@@ -1,5 +1,5 @@
 /* Import de fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 /* Fuentes personalizadas */
 @font-face {
@@ -184,6 +184,7 @@ body {
     width: 100%;
     text-shadow: 0.1px 0.1px 4px black;
     padding: 5px 15px;
+    font-family: Avenir;
     font-size: 1.5em;
     font-weight: bolder;
     color: white;
@@ -352,45 +353,77 @@ footer p {
 }
 
 footer .enlaces a {
-    display: block;
     padding: 5px;
     color: #ccc;
     text-decoration: none;
-    transition: 0.8s all cubic-bezier(0.075, 0.82, 0.165,  1);
+    transition: 0.8s all cubic-bezier(0.075, 0.82, 0.165, 1);
     font-size: 18px;
     font-weight: 700;
     display: flex;
     justify-content: center;
-
 }
 
-footer .enlaces a>i {
+.enlaces a i {
     margin-right: 5px;
-    font-size: 19px;
+    font-size: 20px;
+    color: #fff;
 }
 
 .enlaces a:hover {
     color: var(--amarillo-1);
     text-decoration: underline;
     text-decoration-color: var(--verde-1);
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.enlaces #redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lema {
+    font-family: 'Dancing Script', cursive;
 }
 
 
-/* Gradient transparent - color - transparent */
-
 hr {
-    overflow: visible; /* For IE */
+    overflow: visible;
+    /* For IE */
     padding: 0;
     border: none;
     border-top: medium double #333;
     color: #333;
     text-align: center;
+    height: 10px;
+    width: 50%;
 }
+
 hr:after {
     content: "§";
     display: inline-block;
     position: relative;
-    top: -0.7em;
+    top: -0.9em;
     font-size: 1.5em;
+}
+
+#derechos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -- quienes somos -- */
+#portada-quienes-somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/quieres.jpg');
 }
