@@ -420,10 +420,26 @@ hr:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 70vh;
+    min-height: 85vh;
     background-size: cover;
     background-position: center;
     color: white;
     font-family: Avenir;
     background-image: url('./../assets/images/quieres.jpg');
+}
+
+#portada-quienes-somos h1{
+    text-shadow: 1px 1px 5px var(--amarillo-2);
+    -webkit-text-stroke: 0.001px var(--amarillo-1); /* Grosor y color del borde para navegadores WebKit (Chrome, Safari) */
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: var(--verde-1);
+}
+
+.historia{
+    margin: 20px 10px;
+}
+.historia p{
+text-align: justify;
 }
