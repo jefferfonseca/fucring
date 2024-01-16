@@ -26,6 +26,10 @@ body {
     overflow-x: hidden;
 }
 
+.green-text {
+    color: var(--verde-1);
+}
+
 .navbar {
     transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -428,38 +432,37 @@ hr:after {
     background-image: url('./../assets/images/quieres.jpg');
 }
 
-#portada-quienes-somos h1{
+#portada-quienes-somos h1 {
     text-shadow: 1px 1px 5px var(--amarillo-2);
-    -webkit-text-stroke: 0.001px var(--amarillo-1); /* Grosor y color del borde para navegadores WebKit (Chrome, Safari) */
     display: inline-block;
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
     color: var(--verde-1);
 }
 
-.historia{
+.historia {
     margin: 20px 10px;
 }
-.historia p{
-text-align: justify;
+
+.historia p {
+    text-align: justify;
 }
 
-main {
-    display: flex;
+.mision {
+    background-image: url('./../assets/images/mision.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    color: #fff;
 }
 
-section {
-    flex: 1;
-    padding: 20px;
+#img-mision {
+    background-image: url('./../assets/images/mision1.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
-aside {
-    color: var(--verde-1);
-    width: 200px;
-    padding: 20px;
-    position: sticky;
-    right: 0;
-    top: 50;
-    height: 100%;
-    overflow-y: auto;
+.bg-verde {
+    background-color: var(--verde-2);
+    font-weight: 500;
 }
