@@ -452,11 +452,10 @@ hr:after {
     background-image: url('./../assets/images/mision.jpg');
     background-position: center;
     background-size: cover;
-    padding: 40px;
     color: #fff;
 }
 
-#img-mision {
+#mision {
     background-image: url('./../assets/images/mision1.jpg');
     background-position: center;
     background-size: cover;
