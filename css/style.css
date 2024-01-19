@@ -496,9 +496,6 @@ hr:after {
     color: var(--verde-1);
     padding: 20px 20px;
 }
-.principios-corp h1{
-    width: 100%;
-    background: var(--amarillo-2);
-    padding: 20px;
-    border-radius: 20%;
+.principios-corp p, ul{
+   color: #777;
 }
