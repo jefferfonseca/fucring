@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>FUCRING | ¿Quíenes somos?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FUCRING | ¿Quíeres Somos?</title>
 
     <!--información de la vista previa de redes-->
     <meta property="og:type" content="website" />
-    <meta name="author" content="Ing. Jeferson Leonel Fonseca Soto" />
+    <meta name="author" content="FUCRING | Fundación Cristiana por una Nueva Generación" />
     <meta property="og:title" content="FUCRING | Fundación Cristiana por una Nueva Generación">
     <meta property="og:description" content="Somos elegidos por Dios para llevar esperanza a jóvenes atrapados en las drogas, niños maltratados, personas de la
         tercera edad desamparados y mujeres en situaciones vulnerables. Buscamos sanar, proteger y brindar amor a quienes más lo necesitan. 
@@ -18,15 +19,23 @@
     <meta property="og:image:height" content="80" /><!-- Importante -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png" />
 
-    <!-- Estilos e importaciones -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Otros enlaces CSS -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+    <!-- Otros enlaces JavaScript -->
+
 </head>
 
 <body>
@@ -89,16 +98,13 @@
     <!-- ------------------------------------ Navegacion Fin--------------------------------------------- -->
     <section id="inicio-quienes">
         <div id="portada-quienes-somos">
-            <h1><b>¿Quiénes somos?</b></h1>
+            <h1 class="fs-1"><b>¿Quiénes somos?</b></h1>
         </div>
     </section>
 
-
-
-
-    <section class="historia">
+    <section id="historia">
         <div class="row d-flex justify-content-center">
-            <div class="col-sm-12 col-md-7">
+            <div class="col-sm-12 col-md-8">
                 <h1 class="text-center green-text"><b>Historia</b></h1>
                 <p>En 2010, los pastores cristianos Nelson y Lucia Fonseca experimentaron el doloroso impacto de ver a
                     sus 2 hijos mayores atrapados en las garras de las drogas y la vida desenfrenada. Este episodio
@@ -127,11 +133,12 @@
                 </p>
             </div>
         </div>
+    </section>
 
-        <div class="row d-flex justify-content-end mision">
-            <div class="col-sm-12 col-md-7 bg-green" id="mision"></div>
-            <div class="col-sm-12 col-md-5 px-5 py-2">
-                <h1 class="text-center"><b>Misión</b></h1>
+    <section id="horizonte">
+        <div class="row d-flex justify-content-center mision">
+            <div class="col-sm-12 col-md-5 px-5 py-2 ">
+                <h1 class="text-center p-3"><b>Misión</b></h1>
                 <p class="p-2"> Ser instrumento de transformación en manos de Dios, dedicados a brindar restauración
                     física y espiritual a niños y jóvenes maltratados, así como a la poblacion de adulto mayor
                     en
@@ -141,14 +148,14 @@
                     positiva y valores sólidos.
                 </p>
             </div>
+            <div class="col-sm-12 col-md-7" id="mision"></div>
         </div>
 
 
-
-        <div class="row d-flex justify-content-end mision">
-            <div class="col-sm-12 col-md-5 px-5 py-2">
-                <h1 class="text-center"><b>Misión</b></h1>
-                <p class="p-2"> 
+        <div class="row d-flex flex-row-reverse justify-content-end vision">
+            <div class="col-sm-12 col-md-7 col-lg-5 px-5 py-2">
+                <h1 class="text-center p-3"><b>Visión</b></h1>
+                <p class="p-2">
                     Ser líderes comprometidos en ofrecer atención integral y desarrollar
                     mecanismos innovadores que potencien las habilidades sociales de las poblaciones que
                     servimos. Buscando no solo mejorar la productividad individual, sino también contribuyendo al
@@ -157,80 +164,9 @@
                     a comunidades hacia un futuro más próspero y esperanzador.
                 </p>
             </div>
-            <div class="col-sm-12 col-md-7 bg-green" id="mision"></div>
-        </div>
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <div class="col-sm-12">
-                <div class="row mision d-flex justify-content-center"  id="img-mision">
-                    <div class="col-sm-12 col-md-4">
-                        <h1 class="text-center"><b>Misión</b></h1>
-                        <p class="p-2"> Ser instrumento de transformación en manos de Dios, dedicados a brindar restauración
-                            física y espiritual a niños y jóvenes maltratados, así como a la poblacion de adulto mayor
-                            en
-                            situaciones vulnerables, dirigiendo las vidas de quienes han sufrido abandono y
-                            violencia. Enfocados en desarrollar habilidades para el futuro, exaltando el nombre de
-                            Dios y promoviendo una nueva generación cristiana comprometida con la transformación
-                            positiva y valores sólidos.
-                        </p>
-                    </div>
-                    <div class="col-sm-12 col-md-4 bg-green">
-                      
-
-                    </div>
-                </div>
-                <div class="row mision d-flex justify-content-center">
-                    <div class="col-sm-12 col-md-4"></div>
-                    <div class="col-sm-12 col-md-4 bg-green">
-                        <h1 class="text-center"><b>Visión</b></h1>
-                        <p class="p-2">
-                            Ser líderes comprometidos en ofrecer atención integral y desarrollar
-                            mecanismos innovadores que potencien las habilidades sociales de las poblaciones que
-                            servimos. Buscando no solo mejorar la productividad individual, sino también contribuyendo al
-                            progreso colectivo, permitiendo que encuentren formas sostenibles de sustento. Impulsados
-                            por valores cristianos seremos agentes de cambio, guiando
-                            a comunidades hacia un futuro más próspero y esperanzador.
-                        </p>
-
-                    </div>
-                </div>
-            </div> -->
-
+            <div class=".d-none .d-sm-block col-md-5 col-lg-6"></div>
         </div>
     </section>
-
-
 
 
 
@@ -259,6 +195,26 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <footer>
         <div class="row">
@@ -313,42 +269,6 @@
             </div>
         </div>
     </footer>
-
-
-    <script>
-        // ocultar navbar
-        let prevScrollpos = window.pageYOffset;
-
-        window.onscroll = function () {
-            const currentScrollPos = window.pageYOffset;
-
-            if (prevScrollpos > currentScrollPos) {
-                document.getElementById("navbar").style.top = "0";
-            } else {
-                document.getElementById("navbar").style.top =
-                    "-90px"; // Puedes ajustar este valor según el tamaño de tu navbar
-            }
-            prevScrollpos = currentScrollPos;
-        };
-
-        //    Efecto parallax inicio
-        document.addEventListener('scroll', function () {
-            const scrollTop = window.scrollY;
-
-            // Ajusta la velocidad de desplazamiento según sea necesario
-            document.getElementById('parallax-1').style.backgroundPositionY = scrollTop * 0.2 + 'px';
-            document.getElementById('parallax-2').style.backgroundPositionY = -scrollTop * -0.02 + 'px';
-        });
-    </script>
-
-    <!-- Efecto parallax Fin -->
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-    </script>
 </body>
 
 </html>

@@ -424,7 +424,7 @@ hr:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 85vh;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     color: white;
@@ -433,32 +433,49 @@ hr:after {
 }
 
 #portada-quienes-somos h1 {
-    text-shadow: 1px 1px 5px var(--amarillo-2);
+    text-shadow: 1px 1px 5px black;
     display: inline-block;
     font-family: 'Dancing Script', cursive;
     font-size: 5rem;
-    color: var(--verde-1);
+    color: #ccc;
+    background: var(--verde-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
 }
 
-.historia {
+#historia {
     margin: 20px 10px;
 }
 
-.historia p {
+#historia p {
+    text-align: justify;
+}
+
+#horizonte div {
+    background-position: center;
+    background-size: cover;
     text-align: justify;
 }
 
 .mision {
     background-image: url('./../assets/images/mision.jpg');
-    background-position: center;
-    background-size: cover;
     color: #fff;
 }
 
 #mision {
     background-image: url('./../assets/images/mision1.jpg');
-    background-position: center;
-    background-size: cover;
+    min-height: 20vh;
+}
+.vision {
+    background-image: url('./../assets/images/vision.jpg');
+    color: #fff;
+    text-shadow: 1px 1px 5px black;
+}
+#vision {
+    background-image: url('./../assets/images/vision1.jpg');
+    min-height: 20vh;
 }
 
 .bg-verde {
