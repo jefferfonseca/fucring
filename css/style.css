@@ -182,12 +182,12 @@ body {
 }
 
 .card .front h3 {
-    background: linear-gradient(to bottom, rgba(0, 61, 3, 0.849), rgba(255, 255, 255, 0));
+    background: var(--verde-2);
     position: absolute;
     top: 0;
     width: 100%;
     text-shadow: 0.1px 0.1px 4px black;
-    padding: 5px 15px;
+    padding: 10px 15px;
     font-family: Avenir;
     font-size: 1.5em;
     font-weight: bolder;
@@ -195,7 +195,7 @@ body {
 }
 
 .card .front p {
-    background: linear-gradient(to top, var(--amarillo-1), rgba(255, 255, 255, 0));
+    background: var(--amarillo-2);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -312,6 +312,12 @@ body {
     border-bottom: 2px solid var(--amarillo-1);
 }
 
+#separata-abajo {
+    vertical-align: bottom;
+    background-color: #fff;
+    border-bottom: 2px solid var(--amarillo-1);
+    transform: rotate(180deg);
+}
 .ayuda {
     font-family: Avenir;
     padding: 10%;
@@ -390,7 +396,6 @@ footer .enlaces a {
     font-family: 'Dancing Script', cursive;
 }
 
-
 hr {
     overflow: visible;
     /* For IE */
@@ -453,6 +458,11 @@ hr:after {
     text-align: justify;
 }
 
+.bg-verde {
+    background-color: var(--verde-2);
+    font-weight: 500;
+}
+
 #horizonte div {
     background-position: center;
     background-size: cover;
@@ -468,17 +478,27 @@ hr:after {
     background-image: url('./../assets/images/mision1.jpg');
     min-height: 20vh;
 }
+
 .vision {
     background-image: url('./../assets/images/vision.jpg');
     color: #fff;
     text-shadow: 1px 1px 5px black;
 }
+
 #vision {
     background-image: url('./../assets/images/vision1.jpg');
     min-height: 20vh;
 }
 
-.bg-verde {
-    background-color: var(--verde-2);
-    font-weight: 500;
+.principios-corp {
+    font-weight: 700;
+    text-align: justify;
+    color: var(--verde-1);
+    padding: 20px 20px;
+}
+.principios-corp h1{
+    width: 100%;
+    background: var(--amarillo-2);
+    padding: 20px;
+    border-radius: 20%;
 }
