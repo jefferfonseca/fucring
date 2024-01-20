@@ -4,40 +4,36 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FUCRING | Obras</title>
+    <title>FUCRING | Fundación Cristiana por una Nueva Generación</title>
 
     <!--información de la vista previa de redes-->
     <meta property="og:type" content="website" />
     <meta name="author" content="FUCRING | Fundación Cristiana por una Nueva Generación" />
     <meta property="og:title" content="FUCRING | Fundación Cristiana por una Nueva Generación">
     <meta property="og:description" content="Somos elegidos por Dios para llevar esperanza a jóvenes atrapados en las drogas, niños maltratados, personas de la
-        tercera edad desamparados y mujeres en situaciones vulnerables. Buscamos sanar, proteger y brindar amor a quienes más lo necesitan. 
-        Liberamos a los cautivos, proclamamos la libertad y anunciamos la gracia de 
+        tercera edad desamparados y mujeres en situaciones vulnerables. Buscamos sanar, proteger y brindar amor a quienes más lo necesitan.
+        Liberamos a los cautivos, proclamamos la libertad y anunciamos la gracia de
         Dios para los más vulnerables, ofreciendo salvación eterna.">
     <meta property="og:image" content="assets/images/logo.png">
     <meta property="og:image:width" content="80" /><!-- Importante -->
     <meta property="og:image:height" content="80" /><!-- Importante -->
     <link rel="icon" type="image/x-icon" href="assets/images/logo.png" />
 
-    <link rel="stylesheet" href="css/style.css">
-
-    <!-- CSS Boostrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Otros enlaces CSS -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Estilos e importaciones -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
-    <!-- CSS personalizado -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Bootstrap enlaces JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <style>
+        body {
+            background: #00a130dc;
+        }
+    </style>
 </head>
 
 <body>
@@ -98,95 +94,55 @@
         </div>
     </nav>
     <!-- ------------------------------------ Navegacion Fin--------------------------------------------- -->
-    <section id="inicio-obras">
-        <div id="portada-obras">
-            <h1 class="fs-1"><b>Obras</b></h1>
-        </div>
-    </section>
 
-    <section id="obras">
-        <div class="row d-flex justify-content-center">
-            <div class="col-sm-12 col-md-8">
-                <h1 class="text-center green-text"><b>Obras</b></h1>
+<!-- leer carpetas y archivos -->
 
-                <p>
-                    Como fundación dedicada a la expansión de la gloria de Dios y la prestación de ayuda humanitaria,
-                    nuestro impacto se hace sentir en cada rincón de la ciudad de Tunja, abarcando 14 vibrantes barrios.
-                    Los comerciantes de la Plaza del Sur se erigen como unos de los mas importantes epicentros
-                    generadores de donaciones, y es desde allí que canalizamos nuestras energías hacia la noble labor de
-                    distribuir "Mercados de Salvación" en toda la comunidad.
-                </p>
-                <p>
-                    Este vital proyecto va más allá de la mera entrega de provisiones; es un compromiso profundo con el
-                    bienestar y la dignidad de quienes forman parte de nuestra comunidad. A través de la generosidad
-                    emanada de las personas de la Plaza del Sur y otros colaboradores. Con nuestra sede central en
-                    Patriotas, llevamos esperanza y alivio a aquellos que enfrentan desafíos, tejendo una red de
-                    solidaridad que
-                    abraza a cada familia y vecino en los 14 barrios que tenemos el privilegio de servir.
-                </p>
-                <p>
-                    Cada donación compartida se convierte en un faro de luz, y cada barrio se transforma en un
-                    testimonio viviente de la gracia divina que fluye a través de nuestra fundación. Con un compromiso
-                    inquebrantable, seguimos siendo catalizadores de cambio, inspirando una nueva generación llena de
-                    amor, fe y compasión en cada esquina de Tunja.
-                </p>
-            </div>
-        </div>
-    </section>
+<?php
 
-    <section id="obras">
+$rutaCarpeta = 'assets/images/obras/';
+$barrio = 'Altamira';
+$imagenes = array();
 
-        <div class="row d-flex justify-content-center p-2">
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-                <div class="card p-2" style="width: 20rem;">
-                    <img src="assets/images/obras/Santa Lucía/20230817_141841_HDR.jpg" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center">
-                        <div>
-                            <h5 class="card-title text-center">Card title</h5>
-                            <a href="#" class="btn btn-primary">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+// Abre el directorio
+if ($gestor = opendir($rutaCarpeta . '/' . $barrio)) {
+    // Lee los archivos y directorios dentro de la carpeta
+    while (false !== ($archivo = readdir($gestor))) {
+        // Excluye los directorios padre
+        if ($archivo != "." && $archivo != "..") {
+            // Agrega el nombre del archivo al array si es una imagen
+            if (esImagen($archivo)) {
+                $imagenes[] = $archivo;
+            }
+        }
+    }
+    // Cierra el gestor del directorio
+    closedir($gestor);
+}
 
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-                <div class="card p-2" style="width: 20rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center">
-                        <div>
-                            <h5 class="card-title text-center">Card title</h5>
-                            <a href="#" class="btn btn-primary">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+// Función auxiliar para verificar si un archivo es una imagen
+function esImagen($archivo)
+{
+    $extensionesValidas = array("jpg", "jpeg", "png", "gif");
 
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-                <div class="card p-2" style="width: 20rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center">
-                        <div>
-                            <h5 class="card-title text-center">Card title</h5>
-                            <a href="#" class="btn btn-primary">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    // Obtiene la extensión del archivo
+    $extension = strtolower(pathinfo($archivo, PATHINFO_EXTENSION));
 
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
-                <div class="card p-2" style="width: 20rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center">
-                        <div>
-                            <h5 class="card-title text-center">Card title</h5>
-                            <a href="#" class="btn btn-primary">Ver más...</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    // Verifica si la extensión está en el array de extensiones válidas
+    return in_array($extension, $extensionesValidas);
+}
+?>
 
-    </section>
+    <!-- Gallery -->
+    <div class="row">
+         <?php
+            foreach ($imagenes as $index => $imagen) {
+                echo '<div class=" col-md-12 col-lg-4">';
+                echo "<img src='$rutaCarpeta/$barrio/$imagen' class='w-100 shadow-1-strong rounded mb-4' alt='$barrio' />";
+                echo '</div>';
+            }
+            ?>
+    </div>
+    <!-- Gallery -->
 
 
 
@@ -194,9 +150,7 @@
 
 
 
-
-
-    <footer>
+    <!-- <footer>
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <img src="assets/images/logo Footer.png" class="img-fluid" alt="">
@@ -248,7 +202,7 @@
                 Todos los derechos reservados.
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

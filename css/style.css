@@ -160,18 +160,18 @@ body {
 }
 
 /* Estilos de tarjeta */
-.card {
+#principios .card {
     width: 100vw;
     transform-style: preserve-3d;
     transition: transform 1s;
     transform-origin: center center;
 }
 
-.card:hover {
+#principios .card:hover {
     transform: rotateY(180deg);
 }
 
-.card .front,
+#principios .card .front,
 .card .back {
     width: 100%;
     position: absolute;
@@ -181,7 +181,7 @@ body {
     text-align: center;
 }
 
-.card .front h3 {
+#principios .card .front h3 {
     background: var(--verde-2);
     position: absolute;
     top: 0;
@@ -194,7 +194,7 @@ body {
     color: white;
 }
 
-.card .front p {
+#principios .card .front p {
     background: var(--amarillo-2);
     position: absolute;
     bottom: 0;
@@ -206,12 +206,12 @@ body {
     margin: 0;
 }
 
-.card .back {
+#principios .card .back {
     background: var(--verde-2);
     transform: rotateY(180deg);
 }
 
-.card .back span {
+#principios .card .back span {
     min-height: 210px;
     background: var(--amarillo-2);
     padding: 15px;
@@ -318,6 +318,7 @@ body {
     border-bottom: 2px solid var(--amarillo-1);
     transform: rotate(180deg);
 }
+
 .ayuda {
     font-family: Avenir;
     padding: 10%;
@@ -496,6 +497,34 @@ hr:after {
     color: var(--verde-1);
     padding: 20px 20px;
 }
-.principios-corp p, ul{
-   color: #777;
+
+.principios-corp p,
+ul {
+    color: #777;
+}
+
+/* -- obras -- */
+#portada-obras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/obras.jpg');
+}
+
+#portada-obras h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--amarillo-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
 }
