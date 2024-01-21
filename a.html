@@ -33,6 +33,7 @@
         body {
             background: #00a130dc;
         }
+
     </style>
 
 </head>
@@ -95,13 +96,30 @@
         </div>
     </nav>
     <!-- ------------------------------------ Navegacion Fin--------------------------------------------- -->
-   
-   <h1 class="text-white text-center p-4"><b>Página en Constricción</b></h1>
-   
+
+
+
+
+    <div class="vista-previa" id="modal">
+        <div class="foto">
+            <img src="assets/images/mision1.jpg" alt="">
+            <span class="cerrar" onclick="cerrarVentana()">&times;</span>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <h1 class="text-white text-center p-4"><b>Página en Constricción</b></h1>
+
     <center>
         <img src="assets/images/construccion.jpg" width="50%" class="img-fluid" alt="">
     </center>
- 
+
     <footer>
         <div class="row">
             <div class="col-sm-12 col-md-4">
@@ -155,6 +173,17 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        document.getElementById('mostrarVentana').addEventListener('click', function () {
+            document.getElementById('modal').style.display = 'block';
+        });
+
+        function cerrarVentana() {
+            document.getElementById('modal').style.display = 'none';
+        }
+    </script>
 </body>
 
 </html>
