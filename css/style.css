@@ -518,3 +518,29 @@ ul {
     border-radius: 20%;
     text-align: center;
 }
+
+/* -- Donaciones -- */
+#portada-donaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/donaciones.jpg');
+}
+
+#portada-donaciones h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--amarillo-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+}
