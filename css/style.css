@@ -544,3 +544,38 @@ ul {
     border-radius: 20%;
     text-align: center;
 }
+
+#donaciones p {
+    text-align: justify;
+}
+
+#formas h1 {
+    text-align: center;
+}
+
+#formas p {
+    text-align: justify;
+    margin: 1rem 4rem;
+
+}
+
+.dona {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 4rem;
+    background-color: var(--amarillo-1);
+}
+
+.dona h4 {
+    text-align: center;
+}
+
+.dona hr {
+    width: 100%;
+    background-color: var(--verde-1);
+}
+.dona form {
+    width: 100%;
+}
