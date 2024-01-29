@@ -454,6 +454,15 @@ hr:after {
     font-weight: 500;
 }
 
+.text-verde {
+    color: var(--verde-1);
+    font-weight: 700;
+}
+.text-amarillo {
+    color: var(--amarillo-1);
+    font-weight: 700;
+}
+
 #horizonte div {
     background-position: center;
     background-size: cover;
@@ -576,6 +585,20 @@ ul {
     width: 100%;
     background-color: var(--verde-1);
 }
+
 .dona form {
     width: 100%;
+}
+
+.dona-verde {
+    background-color: var(--verde-1);
+}
+
+label {
+    font-weight: 500;
+}
+
+input[type="submit"] {
+    font-weight: 700;
+    background-color: var(--verde-1);
 }

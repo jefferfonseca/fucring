@@ -135,82 +135,95 @@
 
     <section id="formas">
         <div class="row d-flex justify-content-center">
-            <div class="col-sm-12 col-md-6 dona">
-                <h1 class="f-titulo">Donaciones Económicas</h1>
+            <div class="col-sm-12 col-md-6 dona dona-verde">
+                <h1 class="f-titulo text-amarillo">Donaciones Económicas</h1>
                 <p>¡Haz la diferencia con una donación! Tu pequeño aporte económico tiene un gran impacto en vidas y
                     proyectos significativos. ¡Dona hoy para construir un mejor mañana!</p>
                 <hr>
-                <h4><b>Bancolombia</b>
-                    <br>
+                <img src="assets/images/bancos/bancolombia.png" width="auto" height="50px"> 
+                
+                <h2 class="text-center text-amarillo">
                     Cuenta de Ahorros
-                    <br>
-                    222 2222 2222
-                </h4>
-                <h4><b>Bancolombia</b>
-                    <br>
+                </h2>
+                <h2>222 2222 2222</h2>
+                <h2 class="text-center text-amarillo">
                     Ahorro a la mano
-                    <br>
-                    0310 233 9306
-                </h4>
-                <h4><b>Davivienda</b>
-                    <br>
-                    Daviplata
-                    <br>
-                    310 233 9306
-                </h4>
+                </h2>
+                <h2>0310 233 9306</h2>
+                <h2 class="text-amarillo">
+                    <b>Davivienda</b>
+                </h2>
+                <img src="assets/images/bancos/daviplata.png" width="200px" height="auto"> 
+                <h2>310 233 9306 <br> 310 313 9854</h2>
             </div>
             <div class="col-sm-12 col-md-6 dona">
-                <h1 class="f-titulo">Nacidos para servir</h1>
+                <h1 class="f-titulo text-verde">Nacidos para servir</h1>
                 <p>Únete a nosotros como voluntario y sé parte del cambio positivo que queremos lograr. Tu tiempo y
                     dedicación pueden marcar la diferencia en la vida de aquellos que más lo necesitan. Conviértete en
                     un agente de transformación, compartiendo tu habilidad y amor con quienes buscan esperanza.
                     ¡Invierte tu tiempo para construir un mundo mejor y más solidario!
                 </p>
                 <form action="" method="post">
-                    <label for="nombre" class="form-label">Nombre Completo</label>
+                    <label for="nombre" class="form-label">Nombre Completo:</label>
                     <input class="form-control" name="nombre" placeholder="Nombre Completo">
 
                     <div class="row">
-                        <div class="col-6"> <label for="tipoDocumento" class="form-label">Tipo Documento</label>
+                        <div class="col-sm-12 col-md-4">
+                            <label for="tipoDocumento" class="form-label">Tipo Documento:</label>
                             <select class="form-select" aria-label="Default select" name="tipoDocumento">
-                                <option selected>Open this select menu</option>
+                                <option selected>Tipo de Documento:</option>
                                 <option value="1">T.I.</option>
                                 <option value="2">C.C.</option>
                                 <option value="3">C.E.</option>
                             </select>
                         </div>
-                        <div class="col-6">
-                            <label for="exampleDataList" class="form-label">Número</label>
-                            <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                        <div class="col-sm-12 col-md-4">
+                            <label for="documento" class="form-label">Documento:</label>
+                            <input class="form-control" name="documento" placeholder="Número de Documento">
+                        </div>
+
+                        <div class="col-sm-12 col-md-4">
+                            <label for="nacimiento" class="form-label">Fecha de Nacimiento:</label>
+                            <input type="date" id="nacimiento" class="form-control" name="nacimiento"
+                                min="1950-01-01" />
                         </div>
                     </div>
 
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                    <label for="direccion" class="form-label">Dirección:</label>
+                    <input class="form-control" name="direccion" placeholder="Dirección">
 
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-4">
+                            <label for="barrio" class="form-label">Barrio:</label>
+                            <input class="form-control" name="barrio" placeholder="Barrio">
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <label for="municipio" class="form-label">Municipio:</label>
+                            <input class="form-control" name="municipio" placeholder="Municipio">
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <label for="departamento" class="form-label">Departamento:</label>
+                            <input class="form-control" name="departamento" placeholder="Departamento">
+                        </div>
 
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                    </div>
 
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <label for="celular" class="form-label">Celular:</label>
+                            <input class="form-control" name="celular" placeholder="Celular">
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <label for="email:" class="form-label">E-mail:</label>
+                            <input class="form-control" name="email" placeholder="E-mail">
+                        </div>
+                    </div>
+                    <label for="ocupacion" class="form-label">Ocupación:</label>
+                    <input class="form-control" name="ocupacion" placeholder="Ocupación">
 
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
-
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
-
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
-
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
-
-                    <label for="exampleDataList" class="form-label">Nombre Completo</label>
-                    <input class="form-control" name="nombre" placeholder="Nombre Completo">
+                    <div class="d-grid gap-2">
+                        <input type="submit" class="btn btn-success mt-3" value="ENVIAR"></input>
+                    </div>
                 </form>
             </div>
         </div>
