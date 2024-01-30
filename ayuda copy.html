@@ -120,10 +120,11 @@
                     lo necesitan. Si conoces a alguien que está atravesando dificultades, o si tú mismo necesitas ayuda,
                     estamos aquí para ofrecer nuestro respaldo.</p>
 
-                 <p>¡Únete a nosotros en este hermoso viaje de solidaridad y compasión! Juntos, somos más fuertes.</p>
+                <p>¡Únete a nosotros en este hermoso viaje de solidaridad y compasión! Juntos, somos más fuertes.</p>
 
-                <p>¡Gracias por ser parte de esta cadena de amor y solidaridad! Cada pequeño gesto cuenta.
-                    #ComunidadSolidaria #JuntosPorElBien</p>
+                <p>¡Gracias por ser parte de esta cadena de amor y solidaridad! Cada pequeño gesto cuenta.</p>
+
+                <h2 class="text-center">#ComunidadSolidaria #JuntosPorElBien</h2>
             </div>
         </div>
     </section>
@@ -153,69 +154,40 @@
             </div>
             <div class="col-sm-12 col-md-6 dona">
                 <h1 class="f-titulo text-verde">Nacidos para servir</h1>
-                <p>Únete a nosotros como voluntario y sé parte del cambio positivo que queremos lograr. Tu tiempo y
-                    dedicación pueden marcar la diferencia en la vida de aquellos que más lo necesitan. Conviértete en
-                    un agente de transformación, compartiendo tu habilidad y amor con quienes buscan esperanza.
-                    ¡Invierte tu tiempo para construir un mundo mejor y más solidario!
+                <p>Ayudanos a llevar ayuda ayuda a quienes más lo necestian. Si conoces a alguien en situación de
+                    necesidad, por favor llena estos datos y llevaremos una luz de esperanza a quienes mas lo necesitan.
                 </p>
-                <form action="mensaje.php" method="post">
+                <form action="soli-ayuda.php" method="post">
                     <label for="nombre" class="form-label">Nombre Completo:</label>
                     <input class="form-control" name="nombre" placeholder="Nombre Completo">
-
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4">
-                            <label for="tipoDocumento" class="form-label">Tipo Documento:</label>
-                            <select class="form-select" aria-label="Default select" name="tipoDocumento">
-                                <option selected>Tipo de Documento:</option>
-                                <option value="T.I.">T.I.</option>
-                                <option value="C.C.">C.C.</option>
-                                <option value="C.E.">C.E.</option>
-                            </select>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <label for="documento" class="form-label">No. Documento:</label>
-                            <input class="form-control" name="documento" placeholder="Número de Documento">
-                        </div>
-
-                        <div class="col-sm-12 col-md-4">
-                            <label for="nacimiento" class="form-label">Fecha de Nacimiento:</label>
-                            <input type="date" id="nacimiento" class="form-control" name="nacimiento"
-                                min="1950-01-01" />
-                        </div>
-                    </div>
 
                     <label for="direccion" class="form-label">Dirección:</label>
                     <input class="form-control" name="direccion" placeholder="Dirección">
 
                     <div class="row">
-                        <div class="col-sm-12 col-md-4">
+                        <div class="col-sm-12 col-md-6">
                             <label for="barrio" class="form-label">Barrio:</label>
                             <input class="form-control" name="barrio" placeholder="Barrio">
                         </div>
-                        <div class="col-sm-12 col-md-4">
+                        <div class="col-sm-12 col-md-6">
                             <label for="municipio" class="form-label">Municipio:</label>
                             <input class="form-control" name="municipio" placeholder="Municipio">
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <label for="departamento" class="form-label">Departamento:</label>
-                            <input class="form-control" name="departamento" placeholder="Departamento">
-                        </div>
-
                     </div>
 
                     <div class="row">
                         <div class="col-sm-12 col-md-6">
+                            <label for="departamento" class="form-label">Departamento:</label>
+                            <input class="form-control" name="departamento" placeholder="Departamento">
+                        </div>
+
+                        <div class="col-sm-12 col-md-6">
                             <label for="celular" class="form-label">Celular:</label>
                             <input class="form-control" name="celular" placeholder="Celular">
                         </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="email:" class="form-label">E-mail:</label>
-                            <input class="form-control" name="email" placeholder="E-mail">
-                        </div>
                     </div>
-                    <label for="ocupacion" class="form-label">Ocupación:</label>
-                    <input class="form-control" name="ocupacion" placeholder="Ocupación">
-
+                    <label for="problema" class="form-label">Descripción de la Situación:</label>
+                    <textarea class="form-control" name="problema" placeholder="¡Haz una breve description de la situación de necesidad!"></textarea>
                     <div class="d-grid gap-2">
                         <input type="submit" class="btn btn-success mt-3" value="ENVIAR"></input>
                     </div>

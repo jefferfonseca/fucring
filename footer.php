@@ -11,8 +11,8 @@
                     considerar. Estamos aquí para guiarte y ofrecerte las respuestas que necesitas
                 </p>
                 <div class="enlaces">
-                    <a href="">Solicitar Ayuda</a>
-                    <a href="">Reportar algún caso</a>
+                    <a href="ayuda.php">Solicitar Ayuda</a>
+                    <a href="ayuda.php">Reportar algún caso</a>
                     <a href="">Politicas de Donación</a>
                     <a href="">Políticas de protección de datos</a>
                     <a href="">Documentos publicos</a>
@@ -26,9 +26,9 @@
                         <a href=""><i class='bx bxl-instagram'></i></a>
                         <a href=""><i class='bx bxl-youtube'></i></i></a>
                     </div>
-                    <a href=""> <i class='bx bxl-whatsapp'></i>(+57) 310 233 9306</a>
-                    <a href=""> <i class='bx bxl-whatsapp'></i>(+57) 310 313 9854</a>
-                    <a href=""><i class='bx bxl-gmail'></i>fucringtunja@gmail.com</a>
+                    <a href="tel:3102339306"> <i class='bx bxl-whatsapp'></i>(+57) 310 233 9306</a>
+                    <a href="tel:3102339306"> <i class='bx bxl-whatsapp'></i>(+57) 310 313 9854</a>
+                    <a href="mailto:fucringtunja@gmail.com"><i class='bx bxl-gmail'></i>fucringtunja@gmail.com</a>
                 </div>
 
                 <h3><b>Dirección</b></h3>

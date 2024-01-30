@@ -458,6 +458,7 @@ hr:after {
     color: var(--verde-1);
     font-weight: 700;
 }
+
 .text-amarillo {
     color: var(--amarillo-1);
     font-weight: 700;
@@ -601,4 +602,14 @@ label {
 input[type="submit"] {
     font-weight: 700;
     background-color: var(--verde-1);
+}
+
+.enlaces .redes-a * {
+    color: var(--verde-1);
+    font-size: 40px;
+}
+.enlaces .redes-a a {
+    color: var(--amarillo-1);
+    font-size: 1.7rem;
+    width: 100%;
 }

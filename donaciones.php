@@ -66,7 +66,7 @@
                     un agente de transformación, compartiendo tu habilidad y amor con quienes buscan esperanza.
                     ¡Invierte tu tiempo para construir un mundo mejor y más solidario!
                 </p>
-                <form action="mensaje.php" method="post">
+                <form action="voluntariado.php" method="post">
                     <label for="nombre" class="form-label">Nombre Completo:</label>
                     <input class="form-control" name="nombre" placeholder="Nombre Completo">
 
