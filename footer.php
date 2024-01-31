@@ -12,7 +12,7 @@
                 </p>
                 <div class="enlaces">
                     <a href="ayuda.php">Solicitar Ayuda</a>
-                    <a href="ayuda.php">Reportar algún caso</a>
+                    <a href="ayuda-legal.php">Ayuda Legal</a>
                     <a href="">Politicas de Donación</a>
                     <a href="">Políticas de protección de datos</a>
                     <a href="">Documentos publicos</a>
@@ -36,8 +36,8 @@
                     Tunja, Boyaca, Colombia
                 </p>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3971.271398982765!2d-73.36045943033665!3d5.526693321711951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMzEnMzYuMSJOIDczwrAyMScyMS4xIlc!5e0!3m2!1ses!2sco!4v1705077147450!5m2!1ses!2sco"
-                    width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+                    src="https://www.google.com/maps/d/u/0/embed?mid=1TTWEAZnf4a_ahn0_2SDdXC2qiIjvjls&ehbc=2E312F"
+                    width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
 

@@ -30,6 +30,10 @@ body {
     color: var(--verde-1);
 }
 
+.text-justify{
+    text-align: justify;
+}
+
 .navbar {
     transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
@@ -612,4 +616,38 @@ input[type="submit"] {
     color: var(--amarillo-1);
     font-size: 1.7rem;
     width: 100%;
+}
+
+#ayuda-legal a{
+color: var(--verde-1);
+}
+
+/* -- aydua-legal -- */
+#portada-ayuda-legal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/ayuda-legal.jpg');
+}
+
+#portada-ayuda-legal h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--amarillo-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+#ayuda-legal p {
+    text-align: justify;
 }

@@ -126,10 +126,7 @@
     <p class="text-center">Cra. 3B 16a- 22 | Patriotas
         Tunja, Boyaca, Colombia
     </p>
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3971.271398982765!2d-73.36045943033665!3d5.526693321711951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNcKwMzEnMzYuMSJOIDczwrAyMScyMS4xIlc!5e0!3m2!1ses!2sco!4v1705077147450!5m2!1ses!2sco"
-        width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TTWEAZnf4a_ahn0_2SDdXC2qiIjvjls&ehbc=2E312F" width="100%" height="400px"></iframe>
 
 <?php include_once 'footer.php';?>

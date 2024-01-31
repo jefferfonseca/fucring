@@ -82,8 +82,9 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="obras.php">Obras</a></li>
+                                <li><a class="dropdown-item" href="ayuda-legal.php">Ayuda Legal</a></li>
+                                <li><a class="dropdown-item" href="ayuda.php">Solicitar Ayuda</a></li>
                                 <li><a class="dropdown-item" href="constru.php">Proyectos Sotenibles</a></li>
-                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
                         </li>
                         <li class="nav-item">
