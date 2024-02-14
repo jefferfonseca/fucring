@@ -1,6 +1,6 @@
 <?php include_once('header.php');?>
 
- <section id="inicio-quienes">
+    <section id="inicio-quienes">
         <div id="portada-quienes-somos">
             <h1 class="fs-1"><b>¿Quiénes somos?</b></h1>
         </div>

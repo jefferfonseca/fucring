@@ -1,7 +1,5 @@
  <?php include_once('header.php');?>
 
-<body>
-
     <!-- ------------------------------------ Slide Inicio--------------------------------------------- -->
     <section id="portada">
         <div class="portada">

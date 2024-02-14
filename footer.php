@@ -1,4 +1,4 @@
-<footer>
+    <footer>
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <img src="assets/images/logo Footer.png" class="img-fluid" alt="">

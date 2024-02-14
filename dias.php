@@ -1,6 +1,5 @@
 <?php include_once('header.php');?>
 
-
     <section id="inicio-dias">
         <div id="portada-dias">
             <h1 class="fs-1"><b>Dias de Esperanza</b></h1>

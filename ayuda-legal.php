@@ -1,6 +1,6 @@
 <?php include_once 'header.php';?>
 
-<section id="inicio-ayuda-legal">
+    <section id="inicio-ayuda-legal">
         <div id="portada-ayuda-legal">
             <h1 class="fs-1"><b>Ayuda Legal</b></h1>
         </div>

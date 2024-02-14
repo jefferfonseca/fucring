@@ -1,10 +1,9 @@
 <?php include_once 'header.php';?>
 
-
-<section id="inicio-dias">
-        <div id="portada-dias">
-            <h1 class="fs-1"><b>Almuerzos Solidarios</b></h1>
-        </div>
+    <section id="inicio-dias">
+            <div id="portada-dias">
+                <h1 class="fs-1"><b>Almuerzos Solidarios</b></h1>
+            </div>
     </section>
 
     <section id="mercados">

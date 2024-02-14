@@ -12,14 +12,12 @@ $email = $_POST['email'];
 $ocupacion = $_POST['ocupacion'];
 
 // Redacción de la solicitud de voluntariado
-$solicitudVoluntariado = "https://api.whatsapp.com/send?phone=573136925161&text=";
+$solicitudVoluntariado = "https://api.whatsapp.com/send?phone=573102339306&text=";
 $solicitudVoluntariado .= "*Solicitud de Voluntariado:* $nombre, $tipoDocumento $documento, *fecha de nacimiento: * $nacimiento, ";
 $solicitudVoluntariado .= "*dirección:* $direccion, $barrio, $municipio, $departamento. ";
 $solicitudVoluntariado .= "*Contacto:* Celular $celular, *Email:* $email. *Ocupación:* $ocupacion. Quiero ser parte de su equipo de servidores.";
 $solicitudVoluntariado .= "Me pueden dar mas información por favor.";
 
-
-echo $solicitudVoluntariado;
 echo '
 <script>
     window.location.href = "' . $solicitudVoluntariado . '";
