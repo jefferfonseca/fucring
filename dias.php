@@ -63,7 +63,7 @@
                         queremos lograr juntos. ¡Tu contribución hace la diferencia! 💪✨
                     </p>
 
-                    <a href="" class="btn">Quiero ayudar</a>
+                    <a href="donaciones.php" class="btn">Quiero ayudar</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-6   ">

@@ -729,3 +729,14 @@ color: var(--verde-1);
     border-radius: 20%;
     text-align: center;
 }
+
+#politicas a{
+    margin: 20px;
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--verde-1);
+    font-size: 20px;
+    font-weight: 700;
+}

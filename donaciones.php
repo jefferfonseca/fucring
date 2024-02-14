@@ -1,4 +1,4 @@
-<?php include_once('header.php');?>
+<?php include_once 'header.php';?>
 
     <section id="inicio-donaciones">
         <div id="portada-donaciones">
@@ -43,8 +43,8 @@
                 <p>¡Haz la diferencia con una donación! Tu pequeño aporte económico tiene un gran impacto en vidas y
                     proyectos significativos. ¡Dona hoy para construir un mejor mañana!</p>
                 <hr>
-                <img src="assets/images/bancos/bancolombia.png" width="auto" height="50px"> 
-                
+                <img src="assets/images/bancos/bancolombia.png" width="auto" height="50px">
+
                 <h2 class="text-center text-amarillo">
                     Cuenta de Ahorros
                 </h2>
@@ -56,7 +56,7 @@
                 <h2 class="text-amarillo">
                     <b>Davivienda</b>
                 </h2>
-                <img src="assets/images/bancos/daviplata.png" width="200px" height="auto"> 
+                <img src="assets/images/bancos/daviplata.png" width="200px" height="auto">
                 <h2>310 233 9306 <br> 310 313 9854</h2>
             </div>
             <div class="col-sm-12 col-md-6 dona">
@@ -131,5 +131,64 @@
             </div>
         </div>
     </section>
-    
-<?php include_once('footer.php');?>
+
+    <section id="politicas">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-6 text-justify">
+                <h1 class="f-titulo text-amarillo text-center">Políticas de Donación</h1>
+                <p>¡Haz la diferencia con una donación! Tu pequeño aporte económico tiene un gran impacto en vidas y
+                    proyectos significativos. ¡Dona hoy para construir un mejor mañana!</p>
+                <p>¡Queridos amigos y amigas de corazón generoso!
+                </p>
+                <p>
+                    En la Fundación Cristiana por una Nueva Generación, estamos comprometidos con un propósito que nos
+                    llena de orgullo y
+                    satisfacción: llevar esperanza y cambiar vidas a través de nuestras políticas de donación.
+                </p>
+                <p>
+                    Creemos firmemente en el poder transformador de la generosidad y la solidaridad. Cada donación que
+                    recibimos es un rayo de luz que ilumina el camino de aquellos que más lo necesitan. Es un gesto de
+                    amor y compasión que trasciende barreras y une corazones en un abrazo de esperanza.
+                </p>
+                <p>
+                    Nuestras políticas de donación están guiadas por valores fundamentales como la transparencia, la
+                    responsabilidad y el compromiso con el bienestar de nuestra comunidad. Nos esforzamos por garantizar
+                    que cada recurso donado se utilice de manera efectiva y eficiente, llegando a donde más se necesita
+                    y generando un impacto positivo real.
+                </p>
+                <p>
+                    Cada donación, por pequeña que sea, es una semilla de cambio que plantamos juntos. Y como sabemos
+                    que la unión hace la fuerza, invitamos a cada uno de ustedes a unirse a esta noble causa. Tu apoyo
+                    puede marcar la diferencia entre la desesperación y la esperanza, entre la desigualdad y la
+                    oportunidad.
+                </p>
+                <p>
+                    Juntos, podemos construir un mundo más justo, inclusivo y solidario. Juntos, podemos hacer posible
+                    lo imposible y dejar un legado de amor y bondad para las generaciones futuras.
+                </p>
+                <p>
+                    Así que te invitamos a ser parte de esta hermosa historia de transformación. Cada donación cuenta,
+                    cada gesto de generosidad suma. ¡Únete a nosotros y juntos hagamos del mundo un lugar mejor para
+                    todos!
+                </p>
+                <p>
+                    Con gratitud y esperanza.</p>
+                </p>
+                <h5><b>Nelson y Lucia Fonseca.</b></h5>
+                <h6><b>Presindentes FUCRING</b></h6>
+                <br>
+                <h2 class="text-center">#ComunidadSolidaria #JuntosPorElBien</h2>
+                <br>
+                <center>
+                    <a href="assets/politica-donaciones.pdf" target="_blank">
+                        <img src="assets/images/pdf.svg" width="150px" height="auto" alt="Politicas de Donación">
+                        Politicas de Donación
+                    </a>
+                </center>
+            </div>
+
+        </div>
+    </section>
+
+<?php include_once 'footer.php';?>
