@@ -651,3 +651,81 @@ color: var(--verde-1);
 #ayuda-legal p {
     text-align: justify;
 }
+
+/* -- aydua-legal -- */
+#portada-mercados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/mercado.jpg');
+}
+
+#portada-mercados h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--amarillo-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+
+/* -- Dias de esperanza -- */
+#portada-dias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/proyectos/dias1.jpg');
+}
+#portada-dias h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--verde-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+/* -- almuerzos solidarios -- */
+#portada-dias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Avenir;
+    background-image: url('./../assets/images/proyectos/almuerzos.jpg');
+}
+
+#portada-dias h1 {
+    text-shadow: 1px 1px 5px black;
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    color: #ccc;
+    background: var(--verde-2);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20%;
+    text-align: center;
+}

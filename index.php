@@ -149,7 +149,7 @@
                             <p>Transformamos donaciones de corazones generosos en alimentos repartidos con amor,
                                 alimentando esperanzas y construyendo puentes de solidaridad en cada rincón necesitado
                             </p>
-                            <a href="" class="btn">Más información</a>
+                            <a href="mercados.php" class="btn">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                             <h3>Días de Esperanza.</h3>
                             <p>Con cada donación, celebramos días especiales para aquellos que más lo necesitan,
                                 llevando alegría y esperanza a través de gestos que marcan la diferencia.</p>
-                            <a href="" class="btn">Más información</a>
+                            <a href="dias.php" class="btn">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -175,7 +175,7 @@
                             <h3>Almuerzos Solidarios.</h3>
                             <p>Compartimos más que comida, construimos comunidad, ofreciendo platos llenos de esperanza
                                 y calidez para todos los que lo necesitan.</p>
-                            <a href="" class="btn">Más información</a>
+                            <a href="almuerzos.php" class="btn">Más información</a>
                         </div>
                     </div>
                 </div>

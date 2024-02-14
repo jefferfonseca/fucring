@@ -10,7 +10,7 @@
         <div class="row d-flex justify-content-center">
             <div class="col-sm-12 col-md-8">
 
-                <h1 class="text-center green-text "><b>¡Aquí hay Apoyo!</b></h1>
+                <h1 class="text-center green-text "><b>¡Aquí hay más de un Apoyo!</b></h1>
 
                 <p>Si has sido víctima de abuso sexual infantil o conoces a alguien que lo haya experimentado,
                     es fundamental conocer las redes de apoyo gubernamentales que pueden brindar ayuda.
