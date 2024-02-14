@@ -566,6 +566,10 @@ ul {
 #formas h1 {
     text-align: center;
 }
+.white-text {
+   color: white;
+    font-weight: 700;
+}
 
 #formas p {
     text-align: justify;
