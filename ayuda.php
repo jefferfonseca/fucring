@@ -2,7 +2,7 @@
 
     <section id="inicio-donaciones">
         <div id="portada-donaciones">
-            <h1 class="fs-1"><b>Solicitar aydua</b></h1>
+            <h1 class="fs-1"><b>Solicitar ayuda</b></h1>
         </div>
     </section>
 
@@ -44,7 +44,7 @@
                 <h2 class="text-center text-amarillo">
                     Cuenta de Ahorros
                 </h2>
-                <h2>222 2222 2222</h2>
+                <h2>6061 264 1202</h2>
                 <h2 class="text-center text-amarillo">
                     Ahorro a la mano
                 </h2>

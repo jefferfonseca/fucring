@@ -86,8 +86,10 @@ function esImagen($archivo)
     // Verifica si la extensión está en el array de extensiones válidas
     return in_array($extension, $extensionesValidas);
 }
-?>
 
+echo "<h1 class='text-center white-text'><b>$barrio</b></h1>";
+
+?>
     <!-- Gallery -->
     <div class="row">
          <?php

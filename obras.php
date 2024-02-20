@@ -41,7 +41,7 @@
         <div class="row d-flex justify-content-center p-2">
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Altamira/1.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Altamira</h5>
@@ -51,13 +51,13 @@
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Antonia Santos/2.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Antonia Santos</h5>
-                            <a href="galeria.php?barrio=Antonia Santos" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Antonia%20Santos" class="btn btn-primary">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -75,10 +75,9 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Ciudad Jardín/Imagen de WhatsApp 2024-01-19 a las 15.35.51_af69f0cb.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Ciudad Jardín</h5>
@@ -87,13 +86,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="row d-flex justify-content-center p-2">
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Curubal/1.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Curubal</h5>
@@ -103,10 +101,9 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/El Dorado/IMG-20240119-WA0056.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">El Dorado</h5>
@@ -115,7 +112,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
@@ -129,7 +125,6 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
                     <img src="" class="card-img-top" alt="">
@@ -141,13 +136,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="row d-flex justify-content-center p-2">
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Kennedy/IMG-20240201-WA0022.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Kennedy</h5>
@@ -159,7 +153,7 @@
 
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/La Fuente/Imagen de WhatsApp 2024-01-18 a las 15.51.06_ce6b88d2.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">La Fuente</h5>
@@ -168,10 +162,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
 
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
@@ -185,10 +175,9 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Patriotas/Imagen de WhatsApp 2024-01-18 a las 11.21.47_82614a6e.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Patriotas</h5>
@@ -197,13 +186,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
         <div class="row d-flex justify-content-center p-2">
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Peñitas/Imagen de WhatsApp 2024-01-19 a las 13.53.54_f55b4ad9.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Peñitas</h5>
@@ -212,7 +200,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
@@ -226,10 +213,9 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/San Lazaro/Imagen de WhatsApp 2024-01-18 a las 16.24.55_a4112e53.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">San Lazaro</h5>
@@ -239,10 +225,9 @@
                 </div>
             </div>
 
-
             <div class="col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
                 <div class="card p-2" style="width: 20rem;">
-                    <img src="" class="card-img-top" alt="">
+                    <img src="assets/images/obras/Santa Lucía/20230817_141841_HDR.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Santa Lucía</h5>
