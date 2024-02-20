@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FUCRING | Fundación Cristiana por una Nueva Generación</title>
 
+
     <!--información de la vista previa de redes-->
     <meta property="og:type" content="website" />
-    <meta name="author" content="FUCRING | Fundación Cristiana por una Nueva Generación" />
+    <meta name="author" content="Ing. Jeferson Fonseca Soto" />
     <meta property="og:title" content="FUCRING | Fundación Cristiana por una Nueva Generación">
     <meta property="og:description" content="Somos elegidos por Dios para llevar esperanza a jóvenes atrapados en las drogas, niños maltratados, personas de la
         tercera edad desamparados y mujeres en situaciones vulnerables. Buscamos sanar, proteger y brindar amor a quienes más lo necesitan. 
         Liberamos a los cautivos, proclamamos la libertad y anunciamos la gracia de 
         Dios para los más vulnerables, ofreciendo salvación eterna.">
-    <meta property="og:image" content="assets/images/logo.png">
-    <meta property="og:image:width" content="80" /><!-- Importante -->
+        <meta property="og:image" content="https://fucring.org/page/assets/images/logo.png"><meta property="og:image:width" content="80" /><!-- Importante -->
     <meta property="og:image:height" content="80" /><!-- Importante -->
-    <link rel="icon" type="image/x-icon" href="assets/images/logo.png" />
+    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
 
     <link rel="stylesheet" href="css/style.css">
 
