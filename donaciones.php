@@ -48,18 +48,18 @@
                 <h2 class="text-center text-amarillo">
                     Cuenta de Ahorros
                 </h2>
-                <h2 class="white-text">222 2222 2222</h2>
+                <h2 class="white-text">6061 264 1202</h2>
                <br>
                 <h2 class="text-center text-amarillo">
                     Ahorro a la mano
                 </h2>
-                <h2 class="white-text">310 233 9306 <br> 310 313 9854</h2>
+                <h2 class="white-text">310 233 9306</h2>
                 <br>
                 <h2 class="text-amarillo">
                     <b>Davivienda</b>
                 </h2>
                 <img src="assets/images/bancos/daviplata.png" width="200px" height="auto">
-                <h2 class="white-text">310 233 9306 <br> 310 313 9854</h2>
+                <h2 class="white-text">310 233 9306</h2>
             </div>
             <div class="col-sm-12 col-md-6 dona">
                 <h1 class="f-titulo text-verde">Nacidos para servir</h1>

@@ -53,7 +53,7 @@
                     <b>Davivienda</b>
                 </h2>
                 <img src="assets/images/bancos/daviplata.png" width="200px" height="auto">
-                <h2>310 233 9306 <br> 310 313 9854</h2>
+                <h2>310 233 9306</h2>
             </div>
             <div class="col-sm-12 col-md-6 dona">
                 <h1 class="f-titulo text-verde">Nacidos para servir</h1>

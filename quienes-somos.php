@@ -75,7 +75,7 @@
 
     <section id="principios-corp" >
         <img src="assets/images/border-verde.png" class="img-fluid" id="separata-abajo" alt="">
-        <div class="row principios-corp">
+        <div class="row principios-corp d-flex justify-content-center">
 
             <h1 class="text-center fs-1"><b>Principios y Valores Corpotarivos</b></h1>
 
@@ -104,6 +104,8 @@
                     </div>
                 </ul>
             </div>
+        </div>
+        <div class="row principios-corp d-flex justify-content-center">
 
             <div class="col-sm-12 col-md-6">
                 <h1 class="text-center p-3"><b>Principios</b></h1>

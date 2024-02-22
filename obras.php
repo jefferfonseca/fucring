@@ -45,7 +45,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Altamira</h5>
-                            <a href="galeria.php?barrio=Altamira" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Altamira" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Antonia Santos</h5>
-                            <a href="galeria.php?barrio=Antonia%20Santos" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Antonia%20Santos" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Asis</h5>
-                            <a href="galeria.php?barrio=Asis" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Asis" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Ciudad Jardín</h5>
-                            <a href="galeria.php?barrio=Ciudad Jardín" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Ciudad Jardín" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Curubal</h5>
-                            <a href="galeria.php?barrio=Curubal" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Curubal" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">El Dorado</h5>
-                            <a href="galeria.php?barrio=El Dorado" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=El Dorado" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">El Milagro</h5>
-                            <a href="galeria.php?barrio=El Milagro" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=El Milagro" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Estancia El roble</h5>
-                            <a href="galeria.php?barrio=Estancia El roble" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Estancia El roble" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -145,7 +145,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Kennedy</h5>
-                            <a href="galeria.php?barrio=Kennedy" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Kennedy" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">La Fuente</h5>
-                            <a href="galeria.php?barrio=La Fuente" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=La Fuente" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -169,7 +169,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Libertadores</h5>
-                            <a href="galeria.php?barrio=Libertadores" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Libertadores" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Patriotas</h5>
-                            <a href="galeria.php?barrio=Patriotas" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Patriotas" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -195,7 +195,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Peñitas</h5>
-                            <a href="galeria.php?barrio=Peñitas" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Peñitas" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Pinos de Oriente</h5>
-                            <a href="galeria.php?barrio=Pinos de Oriente" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Pinos de Oriente" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -219,7 +219,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">San Lazaro</h5>
-                            <a href="galeria.php?barrio=San Lazaro" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=San Lazaro" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
@@ -231,7 +231,7 @@
                     <div class="card-body">
                         <center>
                             <h5 class="card-title text-center">Santa Lucía</h5>
-                            <a href="galeria.php?barrio=Santa Lucía" class="btn btn-primary">Ver más...</a>
+                            <a href="galeria.php?barrio=Santa Lucía" class="btn">Ver más...</a>
                         </center>
                     </div>
                 </div>
