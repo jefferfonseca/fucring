@@ -217,7 +217,7 @@ body {
     padding: 15px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black;
-    font-size: 3dvh;
+    font-size: clamp(12px, 4vw, 32px);
     white-space: wrap;
     box-sizing: border-box;
 }

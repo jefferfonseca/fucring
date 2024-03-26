@@ -53,7 +53,7 @@
                 <h2 class="text-center text-amarillo">
                     Ahorro a la mano
                 </h2>
-                <h2 class="white-text">310 233 9306</h2>
+                <h2 class="white-text">0310 233 9306</h2>
                 <br>
                 <h2 class="text-amarillo">
                     <b>Davivienda</b>
